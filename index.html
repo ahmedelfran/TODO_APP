@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font Awesome css -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+    <div class="background">
+            <div class="box-alltask">
+                <div class="box-alltasktop">
+                    <p>TODO APP</p>
+                    <button class="addtask" data-toggle="modal" data-target="#form"><i class="fa-solid fa-plus"></i> Add now task </button>
+                    
+                    <!-- Modal -->
+                    <form id="form" class="modal fade"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title"> Add New Task </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body MBA">
+
+                    Your Name
+                    <input type="text" placeholder="Your Name" id="name">
+                    Task Title
+                    <input type="text" placeholder="Name" id="tasktitle">
+                    Date
+                    <input type="date" id="date">
+                    Description
+                    <textarea id="description" placeholder="enter description"></textarea>
+
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button id="addtask" class="btn btn-primary">Add Task</button>
+                    </div>
+                    </div>
+                    </div>
+                </form>
+                </div>
+
+
+
+
+
+
+                <div id="showTask" class="box-alltaskbottom">
+                    <h1>Tasks</h1>
+
+
+                    <!-- Modal -->
+                    <div id="vision" class="modal fade"  data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">TASK</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body VvV">
+                        <i class="fa-solid fa-pencil"></i> <h2> Ahmed Sayed Elfran </h2><br>
+                        <div class="bodyV">
+                            <h4>Task Title : </h4> <h3> ljfeiognk </h3><br>
+                            <h4>Date : </h4> <h3> 09589347 </h3>
+                            <br><br>
+                            <h4>Task</h4>
+                            <div class="comptask">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At provident iste, nihil veritatis dicta sapiente?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+
+
+
+                    <div id="delet" class="task">
+                        <div class="name">Ahmed Sayed Elfran</div>
+                        <div class="icon">
+                            <i class="fa-solid fa-eye" id="iconv" data-toggle="modal" data-target="#vision"></i>
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>

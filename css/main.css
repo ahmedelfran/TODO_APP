@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    width:100%;
+    height: 100vh;
+    background: #D5E3EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-alltask{
+    width: 45%;
+    height: 80%;
+    font-family: sans-serif;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+    overflow: hidden;
+}
+.box-alltasktop{
+    width: 100%;
+    height: 25%;
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-alltasktop p{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(84 75 92 / 40%);;
+}
+.box-alltasktop .addtask , .btn{
+    width: 40%;
+    height: 50px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background-image: linear-gradient(to right , rgb(150,90,196), rgb(114,134,203)) ;
+    margin-top: 30px;
+}
+.box-alltaskbottom{
+    width: 100%;
+    height: 75%;
+    color: #fff;
+    padding: 20px 40px;
+    background-image: linear-gradient(to right , rgb(150,90,196), rgb(114,134,203)) ;
+}
+.box-alltaskbottom h1{
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+.box-alltaskbottom .task{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+.box-alltaskbottom .icon i{
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.task .icon .fa-trash:hover{
+    color: red;
+}
+.task .icon #iconv:hover{
+    color: rgb(95, 67, 255);
+}
+
+
+/* -----modal------- */
+
+#exampleModalLabel{
+    color: rgb(84 75 92 / 40%);
+    font-size: 28px;
+    font-weight: 600;
+}
+.MBA{
+    background-image: linear-gradient(to right , rgb(150,90,196), rgb(114,134,203)) ;
+    padding: 20px;
+    color: #fff;
+    text-align:center;
+}
+.modal-body input , textarea{
+    width: 100%;
+    height: 32px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px 0 10px 0;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+}
+textarea{
+    height:100px;
+}
+::placeholder{
+    color: rgb(216, 213, 213);
+    font-size: 12px;
+}
+
+/* ------modle 2 ---------- */
+#staticBackdropLabel {
+    color: rgb(84 75 92 / 40%);
+    font-size: 28px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.VvV h2 , .fa-pencil{
+    display: inline-block;
+    color: rgb(126, 124, 124);
+    font-size: 18px ;
+    justify-content: space-between;
+}
+.bodyV{
+    background-image: linear-gradient(to right , rgb(150,90,196), rgb(114,134,203)) ;
+    border-radius: 20px;
+    width: 1005;
+    padding: 30px;
+}
+.bodyV h4 {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+}
+.bodyV h3{
+    color:rgb(216, 213, 213);
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+}
+.comptask{
+    color:rgb(216, 213, 213);
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: transparent;
+}
+
